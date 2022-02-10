@@ -69,5 +69,3 @@ let number = 120
 print(number.isMultiple(of: 3)) // you can call isMultiple(of:) on an integer to find out whether it’s a multiple of another integer.
 
 print(120.isMultiple(of: 13))
-
-
