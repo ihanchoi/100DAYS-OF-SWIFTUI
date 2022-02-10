@@ -23,9 +23,8 @@
 		FA806C7F27B4062900C7C5C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA806C8127B4062900C7C5C1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FA806C8427B4062900C7C5C1 /* Practice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practice.xcdatamodel; sourceTree = "<group>"; };
-		FA806C8B27B4065B00C7C5C1 /* Variables-and-Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Variables-and-Constants.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		FAE31A6227B4D6CC00136077 /* Variable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Variable.playground; path = ../../Variable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		FAE31A6327B4D6DC00136077 /* Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Strings.playground; path = ../../Strings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FAE31A6227B4D6CC00136077 /* Variables-and-Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Variables-and-Constants.playground"; path = "../../Variables-and-Constants.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FAE31A6327B4D6DC00136077 /* Strings-and-Integers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Strings-and-Integers.playground"; path = "../../Strings-and-Integers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +63,8 @@
 				FA806C8127B4062900C7C5C1 /* Persistence.swift */,
 				FA806C8327B4062900C7C5C1 /* Practice.xcdatamodeld */,
 				FA806C7E27B4062900C7C5C1 /* Preview Content */,
-				FA806C8B27B4065B00C7C5C1 /* Variables-and-Constants.playground */,
-				FAE31A6227B4D6CC00136077 /* Variable.playground */,
-				FAE31A6327B4D6DC00136077 /* Strings.playground */,
+				FAE31A6227B4D6CC00136077 /* Variables-and-Constants.playground */,
+				FAE31A6327B4D6DC00136077 /* Strings-and-Integers.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";

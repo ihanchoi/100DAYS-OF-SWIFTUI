@@ -2,8 +2,6 @@ let actor = "Forest"
 let filename = "sydney.jpg"
 let result = "📣 You win! 📣"
 
-
-
 let quote = "\"Done\" is better than perfect"
 // you can even use other double quotes inside your string, as long as you’re careful to put a backslash before them so that Swift understands they are inside the string rather than ending the string.
 /*
