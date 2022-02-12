@@ -65,7 +65,47 @@ print(counter)
 counter /= 2
 print(counter)
 
-let number = 120
-print(number.isMultiple(of: 3)) // you can call isMultiple(of:) on an integer to find out whether it’s a multiple of another integer.
+let number1 = 120
+print(number1.isMultiple(of: 3)) // you can call isMultiple(of:) on an integer to find out whether it’s a multiple of another integer.
 
 print(120.isMultiple(of: 13))
+
+
+
+let number2 = 0.1 + 0.2
+print(number2)
+
+/* when you create a floating-point number, Swift considers it to be a Double. That’s short for “double-precision floating-point number”, which I realize is quite a strange name. it means Swift allocates twice the amount of storage as some older languages would do, meaning a Double can store absolutely massive numbers.
+ Swift considers decimals to be a wholly different type of data to integers, which means you can’t mix them together. After all, integers are always 100% accurate, whereas decimals are not, so Swift won’t let you put the two of them together unless you specifically ask for it to happen. */
+
+let a = 1
+let b = 2.0 // we can see that b is really just the integer 2 masquerading as a decimal, but Swift still won’t allow that code to run.
+// let c = a + b // This is called type safety: Swift won’t let us mix different types of data by accident.
+
+let c1 = a + Int(b)
+let c2 = Double(a) + b
+
+/* Swift decides whether you wanted to create a Double or an Int based on the number you provide – if there’s a dot in there, you have a Double, otherwise it’s an Int. Yes, even if the numbers after the dot are 0.
+ 
+*/
+
+let double1 = 3.1
+let double2 = 3131.3131
+let double3 = 3.0
+let int1 = 3
+
+/* Combined with type safety, this means that once Swift has decided what data type a constant or variable holds, it must always hold that same data type. That means this code is fine.
+ */
+
+var name = "Perfect Penguin"
+name = "Cute Penguin"
+// name = 24 // Swift name will store a string, but then it tries to put an integer in there instead.
+
+// decimal numbers have the same range of operators and compound assignment operators as integers.
+
+var rating = 5.0
+rating *= 2
+
+/* Many older APIs use a slightly different way of storing decimal numbers, called CGFloat. Fortunately, Swift lets us use regular Double numbers everywhere a CGFloat is expected, so although you will see CGFloat appear from time to time you can just ignore it.
+ 
+ In case you were curious, the reason floating-point numbers are complex is because computers are trying to use binary to store complicated numbers. For example, if you divide 1 by 3 we know you get 1/3, but that can’t be stored in binary so the system is designed to create very close approximations. It’s extremely efficient, and the error is so small it’s usually irrelevant, but at least you know why Swift doesn’t let us mix Int and Double by accident. */
