@@ -109,3 +109,24 @@ rating *= 2
 /* Many older APIs use a slightly different way of storing decimal numbers, called CGFloat. Fortunately, Swift lets us use regular Double numbers everywhere a CGFloat is expected, so although you will see CGFloat appear from time to time you can just ignore it.
  
  In case you were curious, the reason floating-point numbers are complex is because computers are trying to use binary to store complicated numbers. For example, if you divide 1 by 3 we know you get 1/3, but that can’t be stored in binary so the system is designed to create very close approximations. It’s extremely efficient, and the error is so small it’s usually irrelevant, but at least you know why Swift doesn’t let us mix Int and Double by accident. */
+
+/* Swift gives us several different ways of storing numbers in our code, and they are designed to solve different problems. Swift doesn’t let us mix them together because doing so will (as in, 100% guaranteed) lead to problems.
+ The two main types of numbers you’ll use are called integers and doubles. Integers hold whole numbers, such as 0, 1, -100,
+ and 65 million, whereas doubles hold decimal numbers, such as 0.1, -1.001, and 3.141592654.
+ */
+
+var myInt = 1
+var myDouble = 1.0
+
+/* var total = myInt + myDouble // can't write this code. because swift is playing it safe. we can both see that 1 plus 1.0 will be 2, but your double is a variable so it could be modified to be 1.1 or 3.5 or something else. How can Swift be sure it’s safe to add an integer to a double – how can it be sure you won’t lose the 0.1 or 0.5?
+ 
+    The answer is that it can’t be safe, which is why it isn’t allowed.
+ */
+
+
+/* Swift lets us create variables as strings and integers, but also many other types of data too. When you create a variable Swift can figure out what type the variable is based on what kind of data you assign to it, and from then on that variable will always have that one specific type. */
+
+var meaningOfLife = 42 // Swift will assign it the type integer – a whole number. It’s a variable, which means we can change its value as often as we need to, but we can’t change its type: it will always be an integer.
+// meaningOfLife = "Forty two" // can't write this code. That tries to assign a string to a variable that is an integer, which isn’t allowed. Although we rarely make such an obvious mistake, you will find that this type safety helps out every single day you’re writing code with Swift.
+
+/* we just created one variable then tried to change its type, which will obviously fail. But as your programs grow in size and complexity, it becomes impossible to keep the types of your variables in your head at all times, so we’re effectively shifting that work on to Swift instead.*/
