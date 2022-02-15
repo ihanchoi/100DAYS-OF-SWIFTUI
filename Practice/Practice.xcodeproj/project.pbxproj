@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA086A1327BBF07000EFC24A /* Join-Strings-together.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Join-Strings-together.playground"; path = "../../Join-Strings-together.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA50EC9827B94F0300FA8BDE /* Booleans.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Booleans.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA806C7527B4062800C7C5C1 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA806C7827B4062800C7C5C1 /* PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeApp.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				FAE31A6227B4D6CC00136077 /* Variables-and-Constants.playground */,
 				FAE31A6327B4D6DC00136077 /* Strings-and-Integers.playground */,
 				FA50EC9827B94F0300FA8BDE /* Booleans.playground */,
+				FA086A1327BBF07000EFC24A /* Join-Strings-together.playground */,
 			);
 			path = "Learning Swift";
 			sourceTree = "<group>";
