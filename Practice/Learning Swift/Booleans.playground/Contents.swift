@@ -2,7 +2,7 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-/* Boolean, which stores either true or flase.*/
+/* Boolean, which stores either true or false.*/
 
 let filename = "paris.jpg"
 print(filename.hasSuffix(".jpg"))
@@ -12,14 +12,14 @@ print(number.isMultiple(of: 3))
 
 /* Both hasSuffix() and isMultiple(of:) return a new value based on their check: either the string has the suffix or it doesn’t, and either 120 is a multiple of 3 or it isn’t. In both places there’s always a simple true or false answer, which is where Booleans come in – they store just that, and nothing else.
  
- Making a Boolean is just like making the other data types, except you should assign an initial value of either true or false, like this
+ Making a Boolean is just like making the other data types, except **you should assign an initial value** of either true or false, like this
  */
 
 let goodDogs = true // You can also assign a Boolean’s initial value from some other code, as long as ultimately it’s either true or false:
 var gameOver = false
 print(gameOver)
-gameOver.toggle() /* Booleans do have a little extra functionality that can be useful. In particular, if you call toggle() on a Boolean it will flip a true value to false, and a false value to true. To try this out, try making gameOver a variable and modifying it like this */
-print(gameOver) /* That will print false first, then after calling toggle() will print true. Yes, that’s the same as using ! just in slightly less code, but it’s surprisingly useful when you’re dealing with complex code! */
+gameOver.toggle() /* Booleans do have a little extra functionality that can be useful. In particular, if you call toggle() on a Boolean it will flip a true value to false, and a false value to true. */
+print(gameOver) /* That will print false first, then after calling toggle() will print true. that’s the same as using ! just in slightly less code, but it’s surprisingly useful when you’re dealing with complex code! */
 
 
 
