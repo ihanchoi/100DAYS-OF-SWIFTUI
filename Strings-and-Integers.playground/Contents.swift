@@ -17,7 +17,9 @@ let movie = """
 A day in
 the life of an
 Apple engineer
-""" // IMPORTANT! The final three quotes must be on a line by themselves!
+"""
+
+// IMPORTANT! The final three quotes must be on a line by themselves!
 /* the triple quotes at the start and <end are on their own line>, with your string in between.
  you can write your strings across as many lines as you need, which means the text remains easy to read in your code.
  */
@@ -129,4 +131,4 @@ var myDouble = 1.0
 var meaningOfLife = 42 // Swift will assign it the type integer – a whole number. It’s a variable, which means we can change its value as often as we need to, but we can’t change its type: it will always be an integer.
 // meaningOfLife = "Forty two" // can't write this code. That tries to assign a string to a variable that is an integer, which isn’t allowed. Although we rarely make such an obvious mistake, you will find that this type safety helps out every single day you’re writing code with Swift.
 
-/* we just created one variable then tried to change its type, which will obviously fail. But as your programs grow in size and complexity, it becomes impossible to keep the types of your variables in your head at all times, so we’re effectively shifting that work on to Swift instead.*/
+/* We just created one variable then tried to change its type, which will obviously fail. But as your programs grow in size and complexity, it becomes impossible to keep the types of your variables in your head at all times, so we’re effectively shifting that work on to Swift instead.*/
