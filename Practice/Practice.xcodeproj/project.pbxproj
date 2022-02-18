@@ -16,6 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA061C8627BF71FA0068BD35 /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA061C8727BF720B0068BD35 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA061C8827BF72200068BD35 /* Lookup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Lookup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA061C8927BF722A0068BD35 /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA086A1327BBF07000EFC24A /* Join-Strings-together.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Join-Strings-together.playground"; path = "../../Join-Strings-together.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA086A1427BBFADD00EFC24A /* Convert-Temperatures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convert-Temperatures.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA50EC9827B94F0300FA8BDE /* Booleans.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Booleans.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -71,6 +75,10 @@
 				FA50EC9827B94F0300FA8BDE /* Booleans.playground */,
 				FA086A1327BBF07000EFC24A /* Join-Strings-together.playground */,
 				FA086A1427BBFADD00EFC24A /* Convert-Temperatures.playground */,
+				FA061C8627BF71FA0068BD35 /* Arrays.playground */,
+				FA061C8727BF720B0068BD35 /* Dictionaries.playground */,
+				FA061C8827BF72200068BD35 /* Lookup.playground */,
+				FA061C8927BF722A0068BD35 /* Enums.playground */,
 			);
 			path = "Learning Swift";
 			sourceTree = "<group>";
