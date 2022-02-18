@@ -10,4 +10,4 @@ let Fahrenheit = Celsius * 9/5 + 32
 let announce = "Today's temperature is \(Celsius)°C and \(Fahrenheit)°F."
 print(announce)
 
-// option + shift + 8 => get the degrees symbol. 
+// option + shift + 8 => get the degrees symbol.
