@@ -108,4 +108,12 @@ print(favCities.sorted())
  Finally, you can reverse an array by calling reversed() on it
  */
 
-let
+let Icecreams = ["Vanila", "Chocolate", "Strawberry", "Cotton candy"]
+let reversedIcecreams = Icecreams.reversed()
+print(reversedIcecreams)
+
+/* When you reverse an array, Swift is very clever – it doesn’t actually do the work of rearranging all the items, but instead just remembers to itself that you want the items to be reversed. So, when you print out reversedIcecreams, don’t be surprised to see it’s not just a simple array any more!
+ 
+ Arrays are extremely common in Swift, and you’ll have lots of opportunity to learn more about them as you progress. Even better sorted(), reversed(), and lots of other array functionality also exists for strings – using sorted() there puts the string’s letters in alphabetical order, making something like “swift” into “fistw”.
+
+*/
