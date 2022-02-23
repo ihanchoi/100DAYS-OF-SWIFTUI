@@ -117,3 +117,13 @@ print(reversedIcecreams)
  Arrays are extremely common in Swift, and you’ll have lots of opportunity to learn more about them as you progress. Even better sorted(), reversed(), and lots of other array functionality also exists for strings – using sorted() there puts the string’s letters in alphabetical order, making something like “swift” into “fistw”.
 
 */
+
+/* Swift’s strings, integers, Booleans, and Doubles allow us to temporarily store single values, but if you want to store many values you will often use arrays instead.
+ 
+ We can create constants and variables of arrays just like other types of data, but the difference is that arrays hold many values inside them. So, if you want to store the names of weekdays, the temperature forecast for the next week, or the high scores for a video game, you’ll want an array rather than a single value.
+
+ Arrays in Swift can be as large or as small as you want. If they are variable, you can add to them freely to build up your data over time, or you can remove or even rearrange items if you want.
+
+ We read values out of arrays using their numerical position, counting from 0. This “counting from 0” has a technical term: we can say that Swift’s arrays are zero-based. Swift will automatically crash your program if you attempt to read an array using an invalid index. For example, creating an array with three items then trying to read index 10.
+
+ I know what you’re thinking: an app crash is bad, right? Right. But trust me: if Swift didn’t crash then it’s very likely you would get back bad data, because you tried to read a value outside what your array holds.*/
