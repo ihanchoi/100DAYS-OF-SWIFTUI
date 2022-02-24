@@ -98,3 +98,29 @@ archEnemies["Batman"] = "Penguin"
 /* Finally, just like arrays and the other data types we’ve seen so far, dictionaries come with some useful functionality that you’ll want to use in the future – count and removeAll() both exists for dictionaries, and work just like they do for arrays.
  
 */
+
+/* Dictionaries and arrays are both ways of storing lots of data in one variable, but they store them in different ways: dictionaries let us choose a “key” that identifies the item we want to add, whereas arrays just add each item sequentially.
+ 
+ So, rather than trying to remember that array index 7 means a user’s country, we could just write user["country"] – it’s much more convenient.
+
+ Dictionaries don’t store our items using an index, but instead they optimize the way they store items for fast retrieval. So, when we say user["country"] it will send back the item at that key (or nil) instantly, even if we have a dictionary with 100,000 items inside.
+
+ Remember, you can’t be guaranteed that a key in a dictionary exists. This is why reading a value from a dictionary might send back nothing – you might have requested a key that doesn’t exist!*/
+
+/* Whenever you read a value from a dictionary, you might get a value back or you might get back nil – there might be no value for that key. Having no value can cause problems in your code, not least because you need to add extra functionality to handle missing values safely, and that’s where dictionary default values come in: they let you provide a backup value to use for when the key you ask for doesn’t exist.
+ 
+ For example, here’s a dictionary that stores the exam results for a student:
+ */
+let results = [
+    "english": 100,
+    "french": 85,
+    "geography": 75
+]
+
+/* As you can see, they sat three exams and scored 100%, 85%, and 75% for English, French, and Geography. If we wanted to read their history score, how we do it depends on what we want:
+ 
+ If a missing value means the student failed to take the test, then we could use a default value of 0 so that we always get an integer back.
+ If a missing value means the student has yet to take the exam, then we should skip the default value and instead look for a nil value.
+ So, it’s not like you always need a default value when working with dictionaries, but when you do it’s easy:*/
+
+let historyResult = results["history", default: 0]
